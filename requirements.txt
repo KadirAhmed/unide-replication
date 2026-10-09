@@ -1,0 +1,8 @@
+torch>=2.1
+transformers>=4.40
+openai>=1.0
+numpy
+scipy
+scikit-learn
+matplotlib
+pytest

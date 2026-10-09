@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Data, models and results: large, kept on the GPU machine or cluster
+data/
+runs/
+logs/
+hf_cache/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+slurm-*.out
+
+# Secrets and personal settings
+.env
+.env.*
+.claude/settings.local.json
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
